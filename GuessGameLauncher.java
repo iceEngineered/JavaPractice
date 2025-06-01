@@ -13,7 +13,7 @@ import java.util.Random;
   Scanner scanner = new Scanner(System.in);
 
   public void StartGame() {
-    var rand = new Random();
+    Random rand = new Random();
     int selectedNum = rand.nextInt(9)+1;
     p1.Guess(scanner);
     p2.Guess(scanner);
